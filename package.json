@@ -1,0 +1,14 @@
+{
+  "name": "websocet-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.3",
+    "ws": "^8.16.0"
+  },
+  "type": "module",
+  "scripts": {
+    "serve" : "node --watch index.js"
+  }
+}

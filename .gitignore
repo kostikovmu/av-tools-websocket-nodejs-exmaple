@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+!**/glob-import/dir/node_modules
+.pnpm-store
+*.cpuprofile
+*.local
+/docs/.vitepress/cache
+/packages/vite/LICENSE
+dist
+dist-ssr
+explorations
+node_modules
+playground-temp
+temp
+src/pages/playground
+TODOs.md
+.eslintcache
+components.d.ts
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/*.code-snippets
+!.vscode/tours
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.yarn
+
+# iconify dist files
+src/@iconify/*.js
